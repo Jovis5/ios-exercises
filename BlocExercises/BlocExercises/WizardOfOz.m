@@ -11,6 +11,7 @@
 @implementation WizardOfOz
 
 - (BOOL) switchesFromBlackAndWhiteToColor {
+    // fix this
     return YES;
 }
 
