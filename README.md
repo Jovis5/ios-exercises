@@ -5,3 +5,5 @@ ios-exercises
 - Specific assignments are in [Exercise Descriptions](Exercise%20Descriptions/).\nMyfirst git change
 \My second git change
 \nMyfirst git change
+\nMyfirst git change
+\nMy second git change
