@@ -17,6 +17,17 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    // NSLog(@"Hello iPhone!");
+    NSLog(@"Hello, France!");
+    NSLog(@"My name is Matt.");
+//    chat
+    [self chant];
+    [self chant];
+    [self chant];
+    [self chant];
+    [self scream];
+    [self scream];
+    [self scream];
     return YES;
 }
 
@@ -42,4 +53,15 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
+- (void) chant
+{
+    NSLog(@"Lions and Tigers and Bears, Oh My!");
+//    chant 
+}
+
+- (void) scream
+{
+    NSLog(@"We are in BIG TROUBLE!");
+//    scream 
+}
 @end
