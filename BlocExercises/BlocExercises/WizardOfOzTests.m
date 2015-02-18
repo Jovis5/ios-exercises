@@ -34,7 +34,7 @@
 - (void)testThatColorfulnessOfFilmIsAccuratelyPortrayed
 {
     BOOL colorSwitches = [self.wonderfulWizard switchesFromBlackAndWhiteToColor];
-    XCTAssertTrue(colorSwitches == YES, @"The color switches from black and white to color, but the `switchesFromBlackAndWhiteToColor` method indicated that it doesn't.");
+    XCTAssertTrue(colorSwitches == YES);
 }
 
 - (void)testTheMainCharacterIsCorrect
