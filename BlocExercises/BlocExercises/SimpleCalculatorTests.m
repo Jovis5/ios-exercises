@@ -39,6 +39,7 @@
     NSInteger firstOperand = 17;
     NSInteger secondOperand = 3;
     NSInteger resultNumber = [self.calculator addNumber:firstOperand toNumber:secondOperand];
+    //   addNumber( 17 , 3 )
     XCTAssertTrue(resultNumber == 20, @"17 + 3 = 20");
 
     firstOperand = -2;
@@ -50,12 +51,12 @@
 - (void) testThatDivisionWorks {
     NSInteger dividend = 15;
     NSInteger divisor = 5;
-    
     NSInteger remainder = [self.calculator remainderOfNumber:dividend dividedByNumber:divisor];
     
     XCTAssertEqual(remainder, 0, @"15 is evenly divisible by 5, so the remainder should be 0.");
     
     NSInteger divisor2 = 4;
+                                                                
     NSInteger remainder2 = [self.calculator remainderOfNumber:dividend dividedByNumber:divisor2];
     
     XCTAssertEqual(remainder2, 3, @"15 is not evenly divisible by 4; the remainder should be 3.");
