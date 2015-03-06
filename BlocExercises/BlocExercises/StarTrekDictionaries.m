@@ -15,14 +15,14 @@
     id trekFavoriteDrink = characterDictionary[@"favorite drink"];
     if (trekFavoriteDrink != nil && [trekFavoriteDrink isKindOfClass:[NSString class]]) {
         NSLog(@"Favorite Drink is: %@", trekFavoriteDrink);
-        return nil;
-    }
+        }
     return trekFavoriteDrink;
 }
 
 - (NSArray *)arrayOfFavoriteDrinksForStarTrekCharacters:(NSArray *)charactersArray {
     
     NSMutableArray *array = [[NSMutableArray alloc] init];
+    
     for (NSDictionary *dictionary in charactersArray) {
         NSString *favoriteDrink = dictionary[@"favorite drink"];
         [array addObject:favoriteDrink];
