@@ -23,21 +23,21 @@
     NSMutableArray *myNumbers = [NSMutableArray array];
     
     for (NSInteger newNumber = number; newNumber <= otherNumber; newNumber++) {
-            [myNumbers addObject:[NSNumber numberWithInt: newNumber]];
+            [myNumbers addObject:[NSNumber numberWithInteger: newNumber]];
     };
     
     return myNumbers;
 }
 
 - (NSInteger) lowestNumberInArray:(NSArray *)arrayOfNumbers {
- 
+    
     NSInteger littleNum = NSIntegerMax;
     
     for (NSNumber *number in arrayOfNumbers) {
         NSInteger newInt = [number integerValue];
         if (newInt < littleNum)
             littleNum = newInt;
-            }
+    }
     return littleNum;
 }
 

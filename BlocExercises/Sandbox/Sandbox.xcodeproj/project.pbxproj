@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		76165B521AAB5A2A0073C61F /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 76165B511AAB5A2A0073C61F /* Car.m */; };
 		76A038D81A93F11000A14332 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A038D71A93F11000A14332 /* main.m */; };
 		76A038DB1A93F11000A14332 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A038DA1A93F11000A14332 /* AppDelegate.m */; };
 		76A038DE1A93F11000A14332 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A038DD1A93F11000A14332 /* ViewController.m */; };
@@ -27,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		76165B501AAB5A2A0073C61F /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		76165B511AAB5A2A0073C61F /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
 		76A038D21A93F11000A14332 /* Sandbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sandbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76A038D61A93F11000A14332 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		76A038D71A93F11000A14332 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -83,6 +86,8 @@
 			children = (
 				76A038D91A93F11000A14332 /* AppDelegate.h */,
 				76A038DA1A93F11000A14332 /* AppDelegate.m */,
+				76165B501AAB5A2A0073C61F /* Car.h */,
+				76165B511AAB5A2A0073C61F /* Car.m */,
 				76A038DC1A93F11000A14332 /* ViewController.h */,
 				76A038DD1A93F11000A14332 /* ViewController.m */,
 				76A038DF1A93F11000A14332 /* Main.storyboard */,
@@ -221,6 +226,7 @@
 			files = (
 				76A038DE1A93F11000A14332 /* ViewController.m in Sources */,
 				76A038DB1A93F11000A14332 /* AppDelegate.m in Sources */,
+				76165B521AAB5A2A0073C61F /* Car.m in Sources */,
 				76A038D81A93F11000A14332 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +418,7 @@
 				76A038F71A93F11000A14332 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		76A038F81A93F11000A14332 /* Build configuration list for PBXNativeTarget "SandboxTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +427,7 @@
 				76A038FA1A93F11000A14332 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

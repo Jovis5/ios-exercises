@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "Car.h"
+
 
 @interface AppDelegate ()
 
@@ -16,18 +18,24 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    Car *myCar = [Car new];
+    myCar.hornSound = @"Awooga";
+    
+    [myCar honk];
+    
+    
     // Override point for customization after application launch.
     // NSLog(@"Hello iPhone!");
-    NSLog(@"Hello, France!");
-    NSLog(@"My name is Matt.");
+    //NSLog(@"Hello, France!");
+    //NSLog(@"My name is Matt.");
 //    chat
-    [self chant];
-    [self chant];
-    [self chant];
-    [self chant];
-    [self scream];
-    [self scream];
-    [self scream];
+    //[self chant];
+    //[self chant];
+    //[self chant];
+    //[self chant];
+    //[self scream];
+    //[self scream];
+    //[self scream];
     return YES;
 }
 
